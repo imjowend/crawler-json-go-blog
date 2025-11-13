@@ -1,0 +1,17 @@
+# Archivos generados
+posts.json
+
+# Binarios de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos de prueba
+*.test
+*.out
+
+# Dependencias de Go
+go.sum
+vendor/
