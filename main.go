@@ -22,7 +22,7 @@ type Post struct {
 
 // Lista de los primeros 25 posts (del más viejo al más nuevo)
 var postSlugs = []string{
-	"go-whats-new-march-2010",
+	"hello-world",
 	"third-party-libraries-goprotobuf-and",
 	"json-rpc-tale-of-interfaces",
 	"new-talk-and-tutorials",
@@ -287,15 +287,15 @@ func cleanHTML(s string) string {
 
 	// Decodificar entidades HTML comunes
 	replacements := map[string]string{
-		"&nbsp;":  " ",
-		"&amp;":   "&",
-		"&lt;":    "<",
-		"&gt;":    ">",
-		"&quot;":  "\"",
-		"&#39;":   "'",
-		"&apos;":  "'",
-		"&mdash;": "—",
-		"&ndash;": "–",
+		"&nbsp;":   " ",
+		"&amp;":    "&",
+		"&lt;":     "<",
+		"&gt;":     ">",
+		"&quot;":   "\"",
+		"&#39;":    "'",
+		"&apos;":   "'",
+		"&mdash;":  "—",
+		"&ndash;":  "–",
 		"&hellip;": "...",
 	}
 
